@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* font-family: 'Mulish', sans-serif; */
+
+@layer utilities {
+  .custom-bg-class {
+    background-image: url("../public/images/ballGym.png");
+  }
+  .custom-bg-bike {
+    background-image: url("./images/bikeSVG.svg");
+  }
+  .custom-bg-class2 {
+    background-image: url("./images/running.png");
+
+    /* background-color: red; */
+  }
+  .h-100 {
+    height: 26rem;
+  }
+  .h-120 {
+    height: 30rem;
+  }
+  .box-shadow-login {
+    box-shadow: 20px 3px 25px 5px rgba(1, 86, 136, 0.295);
+  }
+  .font-primary {
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+  }
+  .font-logo {
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+}
